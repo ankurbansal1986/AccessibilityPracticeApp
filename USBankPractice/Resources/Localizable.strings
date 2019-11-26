@@ -1,0 +1,27 @@
+/* 
+  Localizable.strings
+  USBankPractice
+
+  Created by Pramod Kumar on 25/11/19.
+  Copyright © 2019 Pramod Kumar. All rights reserved.
+*/
+
+//Login Screen
+"Hello" = "Hello!";
+"GladYouHere" = "Glad you're here.";
+"Username" = "Username";
+"Password" = "Password";
+"RememberMe" = "Remember me";
+"LoginHelp" = "Login help";
+"Login" = "Log in";
+"CreateNewUserPass" = "Create a username and password";
+"NotAUser" = "Not a U.S. Bank customer?";
+"ExloreLoansCard" = "Explore loans, cards & more";
+"TourApp" = "Tour the app";
+
+"Opps" = "Opps!";
+"PleaseEnterUsername" = "Please enter your user name.";
+"PleaseEnterPassword" = "Please enter your password.";
+"OK" = "Ok";
+"FilledAlready" = "Filled Already";
+"DoubleTapToSelect" = "Double tap to select";

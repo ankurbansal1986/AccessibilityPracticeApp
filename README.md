@@ -1,2 +1,2 @@
-# AccessibilityPracticeApp
-AccessibilityPracticeApp
+# USBankPractice
+Just a simple exercise for accessibility feature 
