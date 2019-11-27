@@ -52,6 +52,15 @@
 		27C9E519238BEB0E005845E3 /* SourceSansPro-BoldIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = 27C9E50D238BEB0E005845E3 /* SourceSansPro-BoldIt.otf */; };
 		27C9E51A238BEB0E005845E3 /* SourceSansPro-BlackIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = 27C9E50E238BEB0E005845E3 /* SourceSansPro-BlackIt.otf */; };
 		27C9E51B238BEB0E005845E3 /* SourceSansPro-SemiboldIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = 27C9E50F238BEB0E005845E3 /* SourceSansPro-SemiboldIt.otf */; };
+		89ECF842238E3E6700AA23BE /* HelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89ECF841238E3E6700AA23BE /* HelpViewController.swift */; };
+		89ECF844238E3EB300AA23BE /* HelpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89ECF843238E3EB300AA23BE /* HelpViewModel.swift */; };
+		89ECF846238E3EDB00AA23BE /* HelpViewController+TableViewHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89ECF845238E3EDB00AA23BE /* HelpViewController+TableViewHelper.swift */; };
+		89ECF84C238E4BD600AA23BE /* HelpOptionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89ECF848238E4BD600AA23BE /* HelpOptionTableViewCell.swift */; };
+		89ECF84D238E4BD600AA23BE /* GuidedHelpTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89ECF849238E4BD600AA23BE /* GuidedHelpTableViewCell.xib */; };
+		89ECF84E238E4BD600AA23BE /* GuidedHelpTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89ECF84A238E4BD600AA23BE /* GuidedHelpTableViewCell.swift */; };
+		89ECF84F238E4BD600AA23BE /* HelpOptionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89ECF84B238E4BD600AA23BE /* HelpOptionTableViewCell.xib */; };
+		89ECF851238E520B00AA23BE /* HelpSectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89ECF850238E520B00AA23BE /* HelpSectionHeaderView.swift */; };
+		89ECF853238E526500AA23BE /* HelpSectionHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89ECF852238E526500AA23BE /* HelpSectionHeaderView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -123,6 +132,15 @@
 		27C9E50E238BEB0E005845E3 /* SourceSansPro-BlackIt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-BlackIt.otf"; sourceTree = "<group>"; };
 		27C9E50F238BEB0E005845E3 /* SourceSansPro-SemiboldIt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-SemiboldIt.otf"; sourceTree = "<group>"; };
 		27C9E51C238BEB1D005845E3 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89ECF841238E3E6700AA23BE /* HelpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpViewController.swift; sourceTree = "<group>"; };
+		89ECF843238E3EB300AA23BE /* HelpViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpViewModel.swift; sourceTree = "<group>"; };
+		89ECF845238E3EDB00AA23BE /* HelpViewController+TableViewHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HelpViewController+TableViewHelper.swift"; sourceTree = "<group>"; };
+		89ECF848238E4BD600AA23BE /* HelpOptionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpOptionTableViewCell.swift; sourceTree = "<group>"; };
+		89ECF849238E4BD600AA23BE /* GuidedHelpTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GuidedHelpTableViewCell.xib; sourceTree = "<group>"; };
+		89ECF84A238E4BD600AA23BE /* GuidedHelpTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuidedHelpTableViewCell.swift; sourceTree = "<group>"; };
+		89ECF84B238E4BD600AA23BE /* HelpOptionTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HelpOptionTableViewCell.xib; sourceTree = "<group>"; };
+		89ECF850238E520B00AA23BE /* HelpSectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpSectionHeaderView.swift; sourceTree = "<group>"; };
+		89ECF852238E526500AA23BE /* HelpSectionHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HelpSectionHeaderView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -222,6 +240,7 @@
 		27C9E469238B9D0A005845E3 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				89ECF840238E3D9800AA23BE /* HelpViewController */,
 				27C9E4E2238BB805005845E3 /* MainNavigationController.swift */,
 				27C9E46A238B9D0A005845E3 /* CommonViews */,
 				27C9E46F238B9D0A005845E3 /* DetailsViewController */,
@@ -359,6 +378,30 @@
 			path = SourceSansPro;
 			sourceTree = "<group>";
 		};
+		89ECF840238E3D9800AA23BE /* HelpViewController */ = {
+			isa = PBXGroup;
+			children = (
+				89ECF847238E4BD600AA23BE /* HelpTableViewCell */,
+				89ECF841238E3E6700AA23BE /* HelpViewController.swift */,
+				89ECF843238E3EB300AA23BE /* HelpViewModel.swift */,
+				89ECF845238E3EDB00AA23BE /* HelpViewController+TableViewHelper.swift */,
+			);
+			path = HelpViewController;
+			sourceTree = "<group>";
+		};
+		89ECF847238E4BD600AA23BE /* HelpTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				89ECF852238E526500AA23BE /* HelpSectionHeaderView.xib */,
+				89ECF848238E4BD600AA23BE /* HelpOptionTableViewCell.swift */,
+				89ECF849238E4BD600AA23BE /* GuidedHelpTableViewCell.xib */,
+				89ECF84A238E4BD600AA23BE /* GuidedHelpTableViewCell.swift */,
+				89ECF84B238E4BD600AA23BE /* HelpOptionTableViewCell.xib */,
+				89ECF850238E520B00AA23BE /* HelpSectionHeaderView.swift */,
+			);
+			path = HelpTableViewCell;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -470,8 +513,10 @@
 				27C9E511238BEB0E005845E3 /* SourceSansPro-LightIt.otf in Resources */,
 				27C9E518238BEB0E005845E3 /* SourceSansPro-ExtraLightIt.otf in Resources */,
 				27C9E4D9238BAF5D005845E3 /* Localizable.strings in Resources */,
+				89ECF853238E526500AA23BE /* HelpSectionHeaderView.xib in Resources */,
 				27C9E516238BEB0E005845E3 /* SourceSansPro-Semibold.otf in Resources */,
 				27C9E491238B9D0A005845E3 /* Main.storyboard in Resources */,
+				89ECF84F238E4BD600AA23BE /* HelpOptionTableViewCell.xib in Resources */,
 				27C9E489238B9D0A005845E3 /* CommonTableViewCell.xib in Resources */,
 				27C9E514238BEB0E005845E3 /* SourceSansPro-Regular.otf in Resources */,
 				27C9E517238BEB0E005845E3 /* SourceSansPro-Bold.otf in Resources */,
@@ -479,6 +524,7 @@
 				27C9E510238BEB0E005845E3 /* SourceSansPro-ExtraLight.otf in Resources */,
 				27C9E492238B9D0A005845E3 /* Assets.xcassets in Resources */,
 				27C9E513238BEB0E005845E3 /* SourceSansPro-Light.otf in Resources */,
+				89ECF84D238E4BD600AA23BE /* GuidedHelpTableViewCell.xib in Resources */,
 				27C9E51A238BEB0E005845E3 /* SourceSansPro-BlackIt.otf in Resources */,
 				27C9E490238B9D0A005845E3 /* LaunchScreen.storyboard in Resources */,
 			);
@@ -505,12 +551,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89ECF84C238E4BD600AA23BE /* HelpOptionTableViewCell.swift in Sources */,
 				27C9E48F238B9D0A005845E3 /* LoginViewController.swift in Sources */,
 				27C9E496238B9D0A005845E3 /* AppConstant.swift in Sources */,
 				27C9E4E9238BD722005845E3 /* UIViewControllerExtension.swift in Sources */,
+				89ECF842238E3E6700AA23BE /* HelpViewController.swift in Sources */,
 				27C9E49B238BA2D8005845E3 /* AppFonts.swift in Sources */,
+				89ECF846238E3EDB00AA23BE /* HelpViewController+TableViewHelper.swift in Sources */,
 				27C9E48A238B9D0A005845E3 /* CustomButton.swift in Sources */,
+				89ECF851238E520B00AA23BE /* HelpSectionHeaderView.swift in Sources */,
 				27C9E49E238BA342005845E3 /* LoginViewModel.swift in Sources */,
+				89ECF844238E3EB300AA23BE /* HelpViewModel.swift in Sources */,
 				27C9E488238B9D0A005845E3 /* CommonTableViewCell.swift in Sources */,
 				27C9E4E1238BB795005845E3 /* AppNavigationManager.swift in Sources */,
 				27C9E49C238BA2D8005845E3 /* AppStoryboards.swift in Sources */,
@@ -529,6 +580,7 @@
 				27C9E487238B9D0A005845E3 /* AssetModel.swift in Sources */,
 				27C9E486238B9D0A005845E3 /* NetworkManager.swift in Sources */,
 				27C9E48C238B9D0A005845E3 /* DetailsViewController.swift in Sources */,
+				89ECF84E238E4BD600AA23BE /* GuidedHelpTableViewCell.swift in Sources */,
 				27C9E4CA238BA37A005845E3 /* UIDeviceExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
